@@ -1,0 +1,97 @@
+body{
+    background-image: linear-gradient(blueviolet,aquamarine,white);
+}
+header>h1{
+    margin: 20px;
+    text-align: center;
+    color: black;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav > ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(162, 8, 167);
+    
+}
+nav li{
+    float: left;
+}
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+nav a:hover{
+    color: pink;
+}
+
+a:visited {
+    color: black;
+}  
+
+#image{
+    border: 2px solid #ddd;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+#Identity{
+    padding: 2%;
+    margin-left: 1%;
+    word-spacing: 2px;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+}
+
+#Skills{
+    margin-left: 5%;
+    background-color: plum;
+}
+
+#Skills th{
+    background-color: blueviolet;
+}
+
+#About{
+    margin-left: 5%;
+    background-color: blanchedalmond;
+    text-decoration: wavy;
+    font-weight: bold;
+}
+
+#video{
+  margin-left: 60px;  
+  margin-top: -65px;
+}
+#audio{
+    margin-left: 8%;
+}
+
+footer{
+    padding-left: 9%;
+    margin-right: 65%;
+}
+
+footer ol{
+    background:#ff9999;
+    list-style-position: outside;  
+}
+footer ul{
+    background: #ffe5e5;
+    list-style: none;
+    color: darkred;
+}
+
+footer a:hover{
+    color: brown;
+}
