@@ -1,32 +1,27 @@
-function validate(){
-
-    if( document.my_form.Name.value === ""){
-    alert("Please enter your name!!")
-    document.my_form.Name.focus();
-    return false;}
-
-    if( document.my_form.email.value === "") {
-        alert( "Please provide your Email!" );
-        document.myForm.EMail.focus() ;
-        return false;
-     }
-
-    if(document.my_form.tagline.value.length > 10){
-        alert("The Message exceeds the limit");
-        document.myForm.tagline.focus() ;
-        return false;
-    }
-
-    if(document.my_form.number.value.length != 10){
-        alert("Please Enter a valid Phone Number");
-        document.my_form.number.focus();
-        return false;
-    }
-}
-
-
-
 function generateReceipt(){
+    if( document.my_form.Name.value === ""){
+        alert("Please enter your name!!")
+        document.my_form.Name.focus();
+        return false;}
+    
+        if( document.my_form.email.value === "") {
+            alert( "Please provide your Email!" );
+            document.myForm.EMail.focus() ;
+            return false;
+         }
+    
+        if(document.my_form.tagline.value.length > 10){
+            alert("The Message exceeds the limit");
+            document.myForm.tagline.focus() ;
+            return false;
+        }
+    
+        if(document.my_form.number.value.length != 10){
+            alert("Please Enter a valid Phone Number");
+            document.my_form.number.focus();
+            return false;
+        }
+
     let name = document.my_form.Name.value
     let contactNo = document.my_form.number.value
     let Address = document.my_form.Address.value
